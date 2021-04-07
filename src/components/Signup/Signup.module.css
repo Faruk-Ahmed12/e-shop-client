@@ -1,0 +1,102 @@
+/***Google font family***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.formWrapper {
+    width: 400px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.form {
+    border: 1px solid rgba(133, 132, 132, 0.623);
+    padding: 20px;
+}
+
+.field {
+    margin: 15px 0;
+}
+
+.btn {
+    background: #3e005d;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background: #3e005d73;
+}
+
+.hr::before {
+    content: "";
+    position: absolute;
+    right: 60px;
+    width: 30%;
+    height: 1px;
+    background: gray;
+}
+
+.hr::after {
+    content: "";
+    position: absolute;
+    left: 60px;
+    width: 30%;
+    height: 1px;
+    background: gray;
+}
+
+.google {
+    border: 1px solid rgba(133, 132, 132, 0.623);
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    color: gray !important;
+    position: relative;
+    width: 100%;
+    background: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+.google:hover {
+    background: none;
+}
+
+.google span {
+    color: gray !important;
+    float: left;
+    font-size: 20px;
+}
+
+.google i {
+    background: linear-gradient(45deg, #ecac17, #4d17b9);
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+}
+
+/***********Responsive***********/
+@media screen and (max-width: 768px) {
+    .formWrapper {
+        width: 100%;
+    }
+
+    .hr::before {
+        right: 50px;
+    }
+
+    .hr::after {
+        left: 50px;
+    }
+}

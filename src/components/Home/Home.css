@@ -1,0 +1,91 @@
+/***Google font family***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.productBtn button {
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+}
+
+.productSearchBar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 40%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.searchBar {
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+        0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    border-right: none;
+    padding: 22.5px 30px;
+    border: none;
+    background: #6a656514;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.searchBar:focus {
+    outline: transparent;
+}
+
+.card {
+    box-shadow: 0px 2px 15px #808080b8;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    height: 365px;
+    margin: 15px 0;
+}
+
+.button {
+    background-color: rgb(62, 0, 93) !important;
+    color: white !important;
+    padding: 11px !important;
+    border-radius: 0 10px 10px 0 !important;
+    font-family: "Roboto Slab", serif;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 7px;
+    color: gray;
+}
+
+/******Responsive css******/
+@media screen and (max-width: 992px) {
+    .productBtn button {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .productSearchBar {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .productSearchBar {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .productSearchBar {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .productSearchBar {
+        height: 85px;
+        width: 100%;
+    }
+}

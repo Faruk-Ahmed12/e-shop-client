@@ -1,0 +1,16 @@
+nav li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+nav li a:hover {
+    color: white !important;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.sidebar {
+    margin-top: 35px;
+}

@@ -1,0 +1,124 @@
+/***Google font family***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.loginForm {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.form {
+    border: 1px solid rgba(73, 69, 69, 0.623);
+    padding: 20px;
+}
+
+.field {
+    margin: 15px 0;
+}
+
+input {
+    border-bottom: 1px solid gray;
+}
+
+.btn {
+    background: #092542;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background: #000;
+}
+
+.checkbox {
+    float: left !important;
+    color: rgb(92, 91, 91) !important;
+    margin: -16px 0 !important;
+    font-size: 15px;
+}
+
+.forgetPass {
+    float: right !important;
+    color: rgb(92, 91, 91) !important;
+    font-size: 15px;
+}
+
+.hr::before {
+    content: "";
+    position: absolute;
+    right: 60px;
+    width: 30%;
+    height: 1px;
+    background: gray;
+}
+
+.hr::after {
+    content: "";
+    position: absolute;
+    left: 60px;
+    width: 30%;
+    height: 1px;
+    background: gray;
+}
+
+.google {
+    border: 1px solid rgba(133, 132, 132, 0.623);
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    color: gray !important;
+    position: relative;
+    width: 100%;
+    background: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+.google:hover {
+    background: none;
+}
+
+.google span {
+    color: gray !important;
+    float: left;
+    font-size: 20px;
+}
+
+p a {
+    color: #0307ec !important;
+}
+
+/***********Responsive***********/
+@media screen and (max-width: 768px) {
+    .loginForm {
+        width: 100%;
+    }
+
+    .checkbox {
+        font-size: 14px;
+    }
+
+    .forgetPass {
+        font-size: 14px;
+    }
+
+    .hr::before {
+        right: 50px;
+    }
+
+    .hr::after {
+        left: 50px;
+    }
+}

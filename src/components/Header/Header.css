@@ -1,0 +1,46 @@
+/***Google font family***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+body {
+    font-family: "Roboto Slab", serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black !important;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.card-body p {
+    height: 55px;
+}
+
+.headerImg {
+    width: 50px;
+    border-radius: 50%;
+}
+
+a {
+    font-family: "Roboto Slab", serif;
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #da5959 !important;
+}
+
+span.MuiButton-label a {
+    color: #ffffff !important;
+    font-size: 14px;
+}
+
+
+/******Responsive css******/
+@media screen and (max-width: 992px) {
+    span.MuiButton-label a {
+        font-size: 11px;
+    }
+}
