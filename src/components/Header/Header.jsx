@@ -14,8 +14,8 @@ function Header() {
       <Navbar
         collapseOnSelect
         expand="lg"
-        style={{ background: "#092542" }}
-        variant="primary"
+        style={{ background: "black" }}
+        variant="dark"
         fixed="top"
       >
         <Container>

@@ -66,7 +66,7 @@ function Home() {
                       className="img-fluid"
                     />
                     <Card.Body>
-                      <Card.Text>
+                      <Card.Text className="product_name">
                         {data.product} - {data.weight}
                       </Card.Text>
 
@@ -78,8 +78,9 @@ function Home() {
                         }}
                       >
                         <Button
+                        className="priceBtn"
                           variant="outlined"
-                          style={{ color: "#3e005d", fontWeight: "600" }}
+                          style={{ color: "#ffffff", fontWeight: "600", }}
                         >
                           ${data.price}
                         </Button>

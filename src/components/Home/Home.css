@@ -16,6 +16,9 @@
     margin: auto;
     margin-top: 75px;
 }
+.homeProduct {
+    background-color: #111111;
+}
 
 .searchBar {
     box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
@@ -33,14 +36,18 @@
 }
 
 .card {
-    box-shadow: 0px 2px 15px #808080b8;
+    box-shadow: 0px 2px 15px #2e2b2bb8;
     border-radius: 10px;
     border: none;
+    background-color: #2c2929;
     padding: 10px;
     height: 365px;
     margin: 15px 0;
 }
-
+.product_name {
+    color: #ffffff;
+    
+}
 .button {
     background-color: rgb(62, 0, 93) !important;
     color: white !important;
